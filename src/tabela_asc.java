@@ -12,5 +12,7 @@ public class tabela_asc {
     byte[] result = phrase.getBytes();
 
     System.out.println("O valor que tem na sua frase de acordo com a tabela ASC é " + Arrays.toString(result));
+
+    sc.close();
   }
 }
